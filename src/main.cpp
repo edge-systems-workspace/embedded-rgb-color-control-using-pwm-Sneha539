@@ -24,13 +24,10 @@ void setup() {
 
 void loop() {
 
-    // -------- DIGITAL MODE --------
-
-    // TODO 7:
-    // Turn ON red (digital HIGH)
-
-    // TODO 8:
-    // Turn OFF red
+    digitalWrite(redPin, HIGH);
+    delay(1000);
+    digitalWrite(redPin, LOW);
+    delay(500);
 
     // -------- ANALOG (PWM) MODE --------
 
