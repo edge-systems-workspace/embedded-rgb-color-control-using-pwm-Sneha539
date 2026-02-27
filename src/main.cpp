@@ -33,6 +33,5 @@ void loop() {
     analogWrite(greenPin, 100); // Medium green
     analogWrite(bluePin, 50);   // Low blue
 
-    // TODO 12:
-    // Add delay for visible transition
+    delay(2000);
 }
