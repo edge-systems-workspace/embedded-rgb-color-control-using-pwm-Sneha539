@@ -15,14 +15,11 @@ const int greenPin = 10;
 const int bluePin = 11;
 void setup() {
 
-    // TODO 4:
-    // Initialize Serial communication (9600 baud)
-
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
-
-    // TODO 6:
-    // Print initialization message
+    Serial.begin(9600);
+    pinMode(redPin, OUTPUT);
+    pinMode(greenPin, OUTPUT);
+    pinMode(bluePin, OUTPUT);
+    Serial.println("RGB LED Control System Initialized...");
 }
 
 void loop() {
